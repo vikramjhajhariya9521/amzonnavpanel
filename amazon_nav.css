@@ -1,0 +1,155 @@
+*{
+padding : 0;
+margin : 0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+}
+
+
+body{
+ width: 100%;
+ height: 100vh;
+ position: relative;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(19,25,33);
+    color: #fff;
+    padding: 10px 13px;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+header nav .top_nav{
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.am_logo{
+    width: 90px;
+    object-fit: contain;
+}
+
+.yr_address{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+gap: 8px;
+}
+
+.yr_address i{
+    font-size: 1.2rem;
+    margin-left: -4px;
+}
+
+.address_title{
+    text-transform: capitalize;
+}
+.address_title p{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.search_router{
+    width: 45%;
+    height: auto;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search_router input{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    padding: 0 30px 0 60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.search_router select{
+    height: 45px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    width: 8%;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(0,0,0,.2);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search_router .search_btn{
+ z-index: 99;
+ position: absolute;
+ right: 0;
+ height: 45px;
+ width: 65px;
+ background-color: rgb(254,189,105);
+ color: rgb(52,52,51);
+ font-size: 1.1rem;border: none;
+ outline: none;   
+ border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 7px;
+}
+
+.language img{
+    width: 20px;
+}
+
+.language p{
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+}
+.fa-caret-down{
+    position: relative;
+    top: 10px;
+    opacity: .7;
+    left: 4px;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+}
+
+
+.cart_section button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+.cart_section button i{
+    color: #fff;
+    font-size: 1.4rem;margin-right: 6px;
+}
